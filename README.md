@@ -8,7 +8,7 @@ Thanks for their work !
 # /!\ Very Important Update /!\ (13/02/2025)
 Now you need [NodeJS](https://nodejs.org/en) installed on your machine to bypass YT PoToken security.
 
-just download NodeJS via the link and there's nothing more to do !
+just download NodeJS via the link, install it on your machine and there's nothing more to do !
 
 
 # Quickstart
