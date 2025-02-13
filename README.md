@@ -60,7 +60,7 @@ That's all folks !
 # Screenshot
 ![New release](http://ninjaaior.free.fr/Ytzik.png "Youtube-Zik DDL V2.2")
 
-# Demo Vidéo
+# Demo Video
 [![YT music & video Downloader](https://img.youtube.com/vi/rFFb_zwElYs/0.jpg)](https://www.youtube.com/watch?v=rFFb_zwElYs)
 
 # Contact
