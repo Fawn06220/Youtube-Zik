@@ -1,5 +1,5 @@
 # Youtube-Zik
-DDL music from Youtube with Python GUI(wxPython)V2.2
+DDL music from Youtube with Python GUI(wxPython)V2
 
 A project based on [pytubefix](https://github.com/JuanBindez/pytubefix) !
 
