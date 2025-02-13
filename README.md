@@ -61,7 +61,7 @@ That's all folks !
 ![New release](http://ninjaaior.free.fr/Ytzik.png "Youtube-Zik DDL V2.2")
 
 # Vidéo
-[![YT music & video Downloader](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=rFFb_zwElYs)
+[![YT music & video Downloader](https://img.youtube.com/vi/rFFb_zwElYs/0.jpg)](https://www.youtube.com/watch?v=rFFb_zwElYs)
 
 # Contact
 fawn06220@gmail.com
