@@ -253,7 +253,7 @@ class MyFrame(wx.Frame):
         i_text = evt.GetText()
         self.index=self.AffichTxt.FindItem(-1,i_text)
         url=self.liste_urls[self.index]
-        self.yt = YouTube(url,'WEB',on_progress_callback = on_progress)
+        self.yt = YouTube(url,'WEB_EMBED',on_progress_callback = on_progress)
         test_color = self.AffichTxt.GetItemTextColour(self.index)
         if test_color=="PURPLE":
             Connexion = wx.MessageDialog(self, "You already own this Music !\nDo you want to download the video file(mp4) ?\nDo you want to overwrite the existing MP3 file ?","Warning window",\
@@ -448,7 +448,7 @@ class Loader(wx.Frame):
         
 class MyApp(wx.App):
     def OnInit(self):
-        frame = MyFrame(None, -1, "YoutubeZik DDL V2.2")
+        frame = MyFrame(None, -1, "YoutubeZik DDL V2.3")
         frame.Show(True)
         frame.Centre()
         return True
@@ -460,4 +460,4 @@ if __name__=='__main__':
 
 
 
-### YoutubeZik DDL V2.2 by François GARBEZ 04/12/2024 Tested on python 3.12 Win11 ###
+### YoutubeZik DDL V2.3 by François GARBEZ 13/02/2025 Tested on python 3.12 Win11 ###

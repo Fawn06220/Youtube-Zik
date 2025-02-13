@@ -5,8 +5,13 @@ A project based on [pytubefix](https://github.com/JuanBindez/pytubefix) !
 
 Thanks for their work !
 
-# Quickstart
+# /!\ Very Important Update /!\
+Now you need [NodeJS](https://nodejs.org/en) installed on your machine to bypass YT PoToken security.
 
+just download NodeJS via the link and there's nothing more to do !
+
+
+# Quickstart
 Install from [youtube-zik Pypi](https://pypi.org/project/youtube-zik) with PIP :
 
 
@@ -54,6 +59,9 @@ That's all folks !
 
 # Screenshot
 ![New release](http://ninjaaior.free.fr/Ytzik.png "Youtube-Zik DDL V2.2")
+
+# Vidéo
+[![YT music & video Downloader](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=rFFb_zwElYs)
 
 # Contact
 fawn06220@gmail.com
