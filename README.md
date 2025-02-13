@@ -5,7 +5,7 @@ A project based on [pytubefix](https://github.com/JuanBindez/pytubefix) !
 
 Thanks for their work !
 
-# /!\ Very Important Update /!\
+# /!\ Very Important Update /!\ (13/02/2025)
 Now you need [NodeJS](https://nodejs.org/en) installed on your machine to bypass YT PoToken security.
 
 just download NodeJS via the link and there's nothing more to do !
