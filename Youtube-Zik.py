@@ -342,7 +342,7 @@ class MyFrame(wx.Frame):
         if self.choix==1:
             if self.vid_only==True:
                 try:
-                    video_stream = self.yt.streams.filter(adaptive=True, file_extension='mp4', only_video=True).order_by('res').desc().first()
+                    video_stream = self.yt.streams.filter(progressive=False,file_extension='mp4', only_video=True).order_by('resolution').desc().first()
                     video_stream.download("Video Collection")
                 except:
                     Connexion = wx.MessageDialog(self, "This video can't be downloaded, try another one please !","Video unavaible",\
@@ -351,8 +351,8 @@ class MyFrame(wx.Frame):
             else:
             #DL video and audio separately for best quality
                 try:
-                    video_stream = self.yt.streams.filter(adaptive=True, file_extension='mp4', only_video=True).order_by('res').desc().first()
-                    audio_stream = self.yt.streams.filter(adaptive=True, file_extension='mp4', only_audio=True).order_by('abr').desc().first()
+                    video_stream = self.yt.streams.filter(progressive=False,file_extension='mp4', only_video=True).order_by('resolution').desc().first()
+                    audio_stream = self.yt.streams.filter(progressive=False,file_extension='mp4', only_audio=True).order_by('abr').desc().first()
                     video_stream.download()
                     audio_stream.download()
                     audio_file = self.find_most_recent_file(os.getcwd(), '.m4a')
