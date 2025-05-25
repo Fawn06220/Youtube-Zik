@@ -253,8 +253,7 @@ class MyFrame(wx.Frame):
         i_text = evt.GetText()
         self.index=self.AffichTxt.FindItem(-1,i_text)
         url=self.liste_urls[self.index]
-        print(url)
-        self.yt = YouTube(url,on_progress_callback = on_progress)#,use_po_token=True)
+        self.yt = YouTube(url,on_progress_callback = on_progress)
         test_color = self.AffichTxt.GetItemTextColour(self.index)
         if test_color=="PURPLE":
             Connexion = wx.MessageDialog(self, "You already own this Music !\nDo you want to download the video file(mp4) ?\nDo you want to overwrite the existing MP3 file ?","Warning window",\
@@ -385,8 +384,6 @@ class MyFrame(wx.Frame):
     def dl_zik(self):
         self.loader.Show()
         try:
-            print("trying to dl mp3")
-            print(self.yt)
             stream = self.yt.streams.filter(only_audio=True).order_by('abr').desc().first() #Generates m4a files
             stream.download("Audio Collection",filename=self.yt.title+'.m4a')
         except:
@@ -450,7 +447,7 @@ class Loader(wx.Frame):
         
 class MyApp(wx.App):
     def OnInit(self):
-        frame = MyFrame(None, -1, "YoutubeZik DDL V2.3")
+        frame = MyFrame(None, -1, "YoutubeZik DDL V2.4")
         frame.Show(True)
         frame.Centre()
         return True
@@ -462,4 +459,4 @@ if __name__=='__main__':
 
 
 
-### YoutubeZik DDL V2.3 by François GARBEZ 13/02/2025 Tested on python 3.12 Win11 ###
+### YoutubeZik DDL V2.4 by François GARBEZ 13/02/2025 Tested on python 3.13 Win11 ###
