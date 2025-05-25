@@ -253,7 +253,8 @@ class MyFrame(wx.Frame):
         i_text = evt.GetText()
         self.index=self.AffichTxt.FindItem(-1,i_text)
         url=self.liste_urls[self.index]
-        self.yt = YouTube(url,'WEB_EMBED',on_progress_callback = on_progress)
+        print(url)
+        self.yt = YouTube(url,on_progress_callback = on_progress)#,use_po_token=True)
         test_color = self.AffichTxt.GetItemTextColour(self.index)
         if test_color=="PURPLE":
             Connexion = wx.MessageDialog(self, "You already own this Music !\nDo you want to download the video file(mp4) ?\nDo you want to overwrite the existing MP3 file ?","Warning window",\
@@ -342,7 +343,7 @@ class MyFrame(wx.Frame):
         if self.choix==1:
             if self.vid_only==True:
                 try:
-                    video_stream = self.yt.streams.filter(adaptive=True, file_extension='mp4', only_video=True).order_by('resolution').desc().first()
+                    video_stream = self.yt.streams.filter(adaptive=True, file_extension='mp4', only_video=True).order_by('res').desc().first()
                     video_stream.download("Video Collection")
                 except:
                     Connexion = wx.MessageDialog(self, "This video can't be downloaded, try another one please !","Video unavaible",\
@@ -351,7 +352,7 @@ class MyFrame(wx.Frame):
             else:
             #DL video and audio separately for best quality
                 try:
-                    video_stream = self.yt.streams.filter(adaptive=True, file_extension='mp4', only_video=True).order_by('resolution').desc().first()
+                    video_stream = self.yt.streams.filter(adaptive=True, file_extension='mp4', only_video=True).order_by('res').desc().first()
                     audio_stream = self.yt.streams.filter(adaptive=True, file_extension='mp4', only_audio=True).order_by('abr').desc().first()
                     video_stream.download()
                     audio_stream.download()
@@ -384,8 +385,9 @@ class MyFrame(wx.Frame):
     def dl_zik(self):
         self.loader.Show()
         try:
-            stream = self.yt.streams.filter(adaptive=True, only_audio=True).order_by('abr').desc().first() #Generates m4a files
-            self.yt.title=self.replace_char(self.yt.title)
+            print("trying to dl mp3")
+            print(self.yt)
+            stream = self.yt.streams.filter(only_audio=True).order_by('abr').desc().first() #Generates m4a files
             stream.download("Audio Collection",filename=self.yt.title+'.m4a')
         except:
             Connexion = wx.MessageDialog(self, "This music can't be downloaded, try another one please !","Music unavaible",\
