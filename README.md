@@ -28,7 +28,7 @@ Développé par Fawn — testé sous Python 3.12 et Windows 11.
 
 ## EXE compilé pour windows
 
-- Version compilée : [http://ninjaaior.free.fr/YouTubeZik.rar](http://ninjaaior.free.fr/YouTubeZik.rar)
+- Version compilée : [http://ninjaaior.free.fr/YouTubeZik.rar](http://ninjaaior.free.fr/YouTubeZik.rar) (click droit "enregistrer sous...")
 
 ## 🚀 Installation
 
