@@ -39,7 +39,7 @@ Without Node.js, the application will not be able to download music or videos co
 
 ## Compiled EXE for Windows
 
-- Compiled version: [http://ninjaaior.free.fr/YouTubeZik.rar](http://ninjaaior.free.fr/YouTubeZik.rar) (right-click and “save as...”)
+- Compiled version: [http://ninjaaior.free.fr/YoutubeZik-Setup.rar](http://ninjaaior.free.fr/YoutubeZik-Setup.rar) (right-click and “save as...”)
 
 ## 🚀 Installation
 
