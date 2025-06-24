@@ -459,4 +459,4 @@ if __name__=='__main__':
 
 
 
-### YoutubeZik DDL V2.4 by François GARBEZ 13/02/2025 Tested on python 3.13 Win11 ###
+### YoutubeZik DDL V2.5 by François GARBEZ 24/06/2025 Tested on python 3.12 Win11 ###
