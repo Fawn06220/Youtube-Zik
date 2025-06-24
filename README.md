@@ -1,66 +1,66 @@
 # 🎵 YoutubeZik DDL V2.5
 
-**Téléchargeur YouTube pour Windows (audio & vidéo) avec interface graphique (wxPython)**  
-Développé par Fawn — testé sous Python 3.12 et Windows 11.
+**YouTube Downloader for Windows (audio & video) with a graphical user interface (wxPython)**  
+Developed by Fawn — tested with Python 3.12 on Windows 11.
 
-## ✨ Fonctionnalités
+## ✨ Features
 
-- 🔍 Recherche directe de musiques/vidéos YouTube dans l'interface
-- 🎧 Téléchargement audio uniquement (format `.m4a`)
-- 🎞️ Téléchargement vidéo `.mp4` avec ou sans son
-- 🔊 Choix de la qualité vidéo (Low ou High)
-- 📁 Sauvegarde automatique dans des dossiers distincts :
+- 🔍 Direct YouTube music/video search within the interface
+- 🎧 Audio-only downloads (`.m4a` format)
+- 🎞️ Video downloads in `.mp4` format, with or without audio
+- 🔊 Option to select video quality (Low or High)
+- 📁 Automatic saving into separate folders:
   - `Audio Collection`
   - `Video Collection`
-- 🌈 Couleurs pour identifier les fichiers déjà téléchargés :
-  - **Bleu** : Téléchargeable
-  - **Vert** : Vidéo déjà présente
-  - **Violet** : Audio déjà présent
-  - **Rouge** : Audio + Vidéo déjà présents
-- 🔄 Système de gestion de doublons avec boîtes de dialogue intelligentes
-- 🧵 Téléchargements en arrière-plan (multithreading)
-- 💚 Lien de donation PayPal intégré
-- 🆘 Aide intégrée via un bouton
+- 🌈 Color-coded indicators for downloaded files:
+  - **Blue**: Available for download
+  - **Green**: Video already exists
+  - **Purple**: Audio already exists
+  - **Red**: Both audio and video already exist
+- 🔄 Duplicate management system with smart dialogs
+- 🧵 Background downloading (multithreading)
+- 💚 Integrated PayPal donation link
+- 🆘 Built-in help via a dedicated button
 
-## ⚠️ ULTRA IMPORTANT : Node.js requis
+## ⚠️ EXTREMELY IMPORTANT: Node.js Required
 
-Pour que YoutubeZik fonctionne correctement, **Node.js doit être installé sur votre machine**.
+To ensure proper functionality, **Node.js must be installed on your system**.
 
-➡️ Télécharger la version recommandée ici :  
-[https://nodejs.org/fr/download](https://nodejs.org/fr/download)
+➡️ Download the recommended version here:  
+[https://nodejs.org/en/download](https://nodejs.org/en/download)
 
-Sans Node.js, l'application ne pourra pas télécharger les musiques et vidéos correctement !!!
+Without Node.js, the application will not be able to download music or videos correctly!
 
-## 🖥️ Démo
+## 🖥️ Demo
 
-- 🎬 Démos vidéo : [http://ninjaaior.free.fr/devdemos/index.html](http://ninjaaior.free.fr/devdemos/index.html)
+- 🎬 Video demos: [http://ninjaaior.free.fr/devdemos/index.html](http://ninjaaior.free.fr/devdemos/index.html)
 
-## EXE compilé pour windows
+## Compiled EXE for Windows
 
-- Version compilée : [http://ninjaaior.free.fr/YouTubeZik.rar](http://ninjaaior.free.fr/YouTubeZik.rar) (click droit "enregistrer sous...")
+- Compiled version: [http://ninjaaior.free.fr/YouTubeZik.rar](http://ninjaaior.free.fr/YouTubeZik.rar) (right-click and “save as...”)
 
 ## 🚀 Installation
 
-### Prérequis
+### Prerequisites
 
-- Python ≥ 3.10 recommandé
-- Windows uniquement (wxPython n'est pas cross-platform dans cette version)
+- Python ≥ 3.10 recommended
+- Windows only (wxPython is not cross-platform in this version)
 
-### Installation des dépendances
+### Installing Dependencies
 
 ```bash
 pip install wxPython pytubefix moviepy
 ```
 
-> **Note :** `pytubefix` est une version corrigée de `pytube`. Assure-toi qu’elle est bien installée.
+> **Note:** `pytubefix` is a patched version of `pytube`. Make sure it is properly installed.
 
-### Lancement
+### Launching the App
 
 ```bash
 python Youtube-Zik.py
 ```
 
-## 📁 Arborescence
+## 📁 Directory Structure
 
 ```
 ├── Youtube-Zik.py
@@ -68,7 +68,7 @@ python Youtube-Zik.py
 └── Video Collection/
 ```
 
-## ❤️ Remerciements
+## ❤️ Acknowledgements
 
 - 📺 [pytubefix](https://github.com/ldunn/pytubefix)
 - 🎞️ [moviepy](https://zulko.github.io/moviepy/)
@@ -76,12 +76,10 @@ python Youtube-Zik.py
 
 ---
 
-## ☕ Offrez un p'tit café au développeur ?
+## ☕ Buy the Developer a Coffee?
 
-Si cet outil vous a été utile, vous pouvez soutenir le développement (et la consommation excessive de café ☕) ici :
+If you found this tool helpful, consider supporting its development (and the developer’s coffee addiction ☕) here:
 
 ➡️ [![Donate](icone/donate.png)](https://www.paypal.com/paypalme/noobpythondev)
 
-Un grand merci ! 💙
-
-
+Thank you so much! 💙
