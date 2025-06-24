@@ -22,6 +22,15 @@ Développé par Fawn — testé sous Python 3.12 et Windows 11.
 - 💚 Lien de donation PayPal intégré
 - 🆘 Aide intégrée via un bouton
 
+## ⚠️ ULTRA IMPORTANT : Node.js requis
+
+Pour que YoutubeZik fonctionne correctement, **Node.js doit être installé sur votre machine**.
+
+➡️ Télécharger la version recommandée ici :  
+[https://nodejs.org/fr/download](https://nodejs.org/fr/download)
+
+Sans Node.js, l'application ne pourra pas télécharger les musiques et vidéos correctement !!!
+
 ## 🖥️ Démo
 
 - 🎬 Démos vidéo : [http://ninjaaior.free.fr/devdemos/index.html](http://ninjaaior.free.fr/devdemos/index.html)
