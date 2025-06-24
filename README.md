@@ -1,67 +1,67 @@
-# Youtube-Zik
-DDL music from Youtube with Python GUI(wxPython)V2
+# 🎵 YoutubeZik DDL V2.5
 
-A project based on [pytubefix](https://github.com/JuanBindez/pytubefix) !
+**Téléchargeur YouTube pour Windows (audio & vidéo) avec interface graphique (wxPython)**  
+Développé par François Garbez — testé sous Python 3.12 et Windows 11.
 
-Thanks for their work !
+## ✨ Fonctionnalités
 
-# /!\ Very Important Update /!\ (13/02/2025)
-Now you need [NodeJS](https://nodejs.org/en) installed on your machine to bypass YT PoToken security.
+- 🔍 Recherche directe de musiques/vidéos YouTube dans l'interface
+- 🎧 Téléchargement audio uniquement (format `.m4a`)
+- 🎞️ Téléchargement vidéo `.mp4` avec ou sans son
+- 🔊 Choix de la qualité vidéo (Low ou High)
+- 📁 Sauvegarde automatique dans des dossiers distincts :
+  - `Audio Collection`
+  - `Video Collection`
+- 🌈 Couleurs pour identifier les fichiers déjà téléchargés :
+  - **Bleu** : Téléchargeable
+  - **Vert** : Vidéo déjà présente
+  - **Violet** : Audio déjà présent
+  - **Rouge** : Audio + Vidéo déjà présents
+- 🔄 Système de gestion de doublons avec boîtes de dialogue intelligentes
+- 🧵 Téléchargements en arrière-plan (multithreading)
+- 💚 Lien de donation PayPal intégré
+- 🆘 Aide intégrée via un bouton
 
-just download NodeJS via the link, install it on your machine and there's nothing more to do !
+## 🖥️ Capture d’écran
 
+*(Ajoute ici une capture de ton application en action si tu veux)*
 
-# Quickstart
-Install from [youtube-zik Pypi](https://pypi.org/project/youtube-zik) with PIP :
+## 🚀 Installation
 
+### Prérequis
 
-	pip install youtube-zik
-	
-	
-Once installed just use with this command:
+- Python ≥ 3.10 recommandé
+- Windows uniquement (wxPython n'est pas cross-platform dans cette version)
 
+### Installation des dépendances
 
-	py -m youtube-zik
+```bash
+pip install wxPython pytubefix moviepy
+```
 
+> **Note :** `pytubefix` est une version corrigée de `pytube`. Assure-toi qu’elle est bien installée.
 
-# Installation(to work on code)
-Create a virtual env : [Python Venv Setup](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html)
+### Lancement
 
-inside your Venv install requirements :
+```bash
+python Youtube-Zik.py
+```
 
+## 📁 Arborescence
 
-	pip install -r /path/to/requirements.txt
+```
+├── Youtube-Zik.py
+├── Audio Collection/
+└── Video Collection/
+```
 
+## ❤️ Remerciements
 
-Use your favorite editor to code on Youtube-zik.py !
-	
-# Installation(Windows executable)
-Download YoutubeDDL.rar
+- 📺 [pytubefix](https://github.com/ldunn/pytubefix)
+- 🎞️ [moviepy](https://zulko.github.io/moviepy/)
+- 🖼️ [wxPython](https://wxpython.org/)
 
-Use your favorite archiver(winrar,winzip,7z...)
+## ☕ Support / Donation
 
-Double click on YoutubeDDL.exe ! (just run it lol)
-
-# Notice
-Hello all !
-
-Really simple to use :
-
-	- "Collection" folders created on app launch if doesn't exist
-	- Right click a BLUE music to download it
-	- A RED music means that you already own it
-	- You can't download twice the same music
-	- "More Results" button to fecth more (actually 17 results)
-	- Mp3/mp4 download format choice
-	- You can enter a youtube URL directly to find your media !
-	
-That's all folks !
-
-# Screenshot
-![New release](http://ninjaaior.free.fr/Ytzik.png "Youtube-Zik DDL V2.2")
-
-# Demo Video
-[![YT music & video Downloader](https://img.youtube.com/vi/rFFb_zwElYs/0.jpg)](https://www.youtube.com/watch?v=rFFb_zwElYs)
-
-# Contact
-fawn06220@gmail.com
+Si tu apprécies ce projet et veux soutenir le dev :
+👉 [paypal.me/noobpythondev](http://paypal.me/noobpythondev)
