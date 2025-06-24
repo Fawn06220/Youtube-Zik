@@ -1,7 +1,7 @@
 # 🎵 YoutubeZik DDL V2.5
 
 **Téléchargeur YouTube pour Windows (audio & vidéo) avec interface graphique (wxPython)**  
-Développé par François Garbez — testé sous Python 3.12 et Windows 11.
+Développé par Fawn — testé sous Python 3.12 et Windows 11.
 
 ## ✨ Fonctionnalités
 
@@ -22,9 +22,9 @@ Développé par François Garbez — testé sous Python 3.12 et Windows 11.
 - 💚 Lien de donation PayPal intégré
 - 🆘 Aide intégrée via un bouton
 
-## 🖥️ Capture d’écran
+## 🖥️ Démo
 
-*(Ajoute ici une capture de ton application en action si tu veux)*
+- 🎬 Démos vidéo : [http://ninjaaior.free.fr/devdemos/index.html](http://ninjaaior.free.fr/devdemos/index.html)
 
 ## 🚀 Installation
 
