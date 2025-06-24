@@ -1,3 +1,5 @@
+[![EN](https://img.shields.io/badge/lang-EN-red.svg)](https://github.com/Fawn06220/Youtube-Zik/blob/main/README.md)
+
 # 🎵 YoutubeZik DDL V2.5
 
 **Téléchargeur YouTube pour Windows (audio & vidéo) avec interface graphique (wxPython)**  
