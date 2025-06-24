@@ -26,6 +26,10 @@ Développé par Fawn — testé sous Python 3.12 et Windows 11.
 
 - 🎬 Démos vidéo : [http://ninjaaior.free.fr/devdemos/index.html](http://ninjaaior.free.fr/devdemos/index.html)
 
+## EXE compilé pour windows
+
+- Version compilée : [http://ninjaaior.free.fr/YouTubeZik.rar](http://ninjaaior.free.fr/YouTubeZik.rar)
+
 ## 🚀 Installation
 
 ### Prérequis
