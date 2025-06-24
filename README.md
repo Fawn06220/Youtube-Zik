@@ -61,7 +61,14 @@ python Youtube-Zik.py
 - 🎞️ [moviepy](https://zulko.github.io/moviepy/)
 - 🖼️ [wxPython](https://wxpython.org/)
 
-## ☕ Support / Donation
+---
 
-Si tu apprécies ce projet et veux soutenir le dev :
-👉 [paypal.me/noobpythondev](http://paypal.me/noobpythondev)
+## ☕ Offrez un p'tit café au développeur ?
+
+Si cet outil vous a été utile, vous pouvez soutenir le développement (et la consommation excessive de café ☕) ici :
+
+➡️ [![Donate](icone/donate.png)](https://www.paypal.com/paypalme/noobpythondev)
+
+Un grand merci ! 💙
+
+
