@@ -447,7 +447,7 @@ class Loader(wx.Frame):
         
 class MyApp(wx.App):
     def OnInit(self):
-        frame = MyFrame(None, -1, "YoutubeZik DDL V2.4")
+        frame = MyFrame(None, -1, "YoutubeZik DDL V2.5")
         frame.Show(True)
         frame.Centre()
         return True
